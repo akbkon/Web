@@ -1,0 +1,143 @@
+            .navbar-header{
+                background-color:rgb(34,34,34);
+                position: fixed;
+                top:0px;
+                left:0px;
+                width:100%;
+                height:40px;
+                color:#9D9D9D;
+                z-index:900;
+            }
+            .navbar-title{
+                position:relative;
+                top:7px;
+                left:10px;
+                display:inline-block;
+            }
+            .navbar-bottom{
+                position:relative;
+                top:7px;
+                float:right;
+                right:40px;
+                display:inline-block;
+            }
+            .navbar-title>a{
+                color:#9D9D9D;
+                text-decoration: none;
+            }
+            .navbar-title>a:hover{
+                color:white;
+            }
+            .navbar-bottom>a{
+                color:#9D9D9D;
+                text-decoration: none;
+            }
+            .navbar-bottom>a:hover{
+                color:white;
+            }
+            body{
+                background-color:rgb(99,231,108);
+                font-family: 微软雅黑;
+            }
+            .main_m{
+                position: relative;
+                top:40px;
+                width:750px;
+                margin:auto;
+                background-color: rgba(255,255,255,0.7);
+                color:#9D9D9D;
+                padding:20px 40px;
+            }
+            .main_l{
+                position:relative;
+                float:left;
+                top:40px;
+                display:inlin-block;
+                width:150px;
+                height:100px;
+                background-color: rgba(255,255,255,0.6);
+            }
+            .main_r{
+                 position:relative;
+                float:right;
+                top:40px;
+                display:inlin-block;
+                width:150px;
+                height:300px;
+                background-color: rgba(255,255,255,0.6);
+            }
+            .avatar{
+                width:40px;
+                height:40px;
+                padding:1px;
+               border:1px solid;
+            }
+            .avatar_outer{
+                position:relative;
+                display:inline-block;
+                margin:10px;
+                top:10px;
+               
+
+            }
+            #main_text{
+                text-align:left;
+                width:90%;
+                margin-left:40px;
+                margin-top: 0px;
+                color:rgb(30,189,41);
+                word-wrap:break-word;  
+                word-break:break-all; 
+            }
+            #message_time{
+                color:rgb(99,231,108);
+                text-align: right;
+                
+            }
+            .message{
+            border-bottom: 3px dashed rgb(99,231,108);;
+            }
+            #user_name{
+                 color:rgb(99,231,108);
+                 display:inline-block;
+            }
+            .input_mes{
+                display:block;
+                width:100%;
+                height:34px;
+                padding:6px 12px;
+                font-size:14px;
+                color:#555;
+                background-color:#fff;
+                background-image:none;
+                border:1px solid #ccc;
+                border-radius:4px;
+                box-shadow:inset 0 1px 1px rgba(0,0,0,.075);
+                position:relative;
+                top:30px;
+            }
+            #user_avatar{
+                width:60px;
+                height:60px;
+                position:relative;
+                left:35px;
+                top:20px;
+            }
+            .user_avatar_outer{
+                width:130px;
+                height: 100px;
+                border-bottom: 2px solid rgb(51,223,64);
+                margin:0px 10px;
+            }
+            .user_information p{
+                font-size:0.8em;
+                text-align: center;
+            }
+            .edit_box{
+                position:fixed;
+                top:250px;
+                left:100px;
+                width:1000px;
+                display:none;
+                z-index: 10000;
+            }
